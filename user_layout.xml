@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_boy"/>
+
+    <TextView
+        android:id="@+id/user_name"
+        android:text="@string/usernamee"
+        android:layout_toEndOf="@id/profileImage"
+        android:layout_marginStart="10dp"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/livvic_regular"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        app:civ_border_width="10dp"
+        app:civ_border_color="#C8F902"
+        android:id="@+id/img_on"
+        android:visibility="gone"
+        android:src="@drawable/ic_boy"
+        android:layout_below="@id/user_name"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="-15dp"
+        android:layout_toEndOf="@id/profileImage"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        app:civ_border_width="10dp"
+        app:civ_border_color="#D61A3C"
+        android:id="@+id/img_off"
+        android:visibility="gone"
+        android:src="@drawable/ic_boy"
+        android:layout_below="@id/user_name"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="-15dp"
+        android:layout_toEndOf="@id/profileImage"/>
+
+    <TextView
+        android:id="@+id/last_msg"
+        android:layout_below="@id/user_name"
+        android:layout_toEndOf="@id/profileImage"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginStart="6dp"
+        android:maxLines="1"
+        android:fontFamily="@font/livvic_regular"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

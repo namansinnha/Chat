@@ -1,8 +1,3 @@
-package com.developer.gkweb.knowlocation.Util;
-
-import android.text.method.PasswordTransformationMethod;
-import android.view.View;
-
 public class AsteriskPasswordTransformationMethod extends PasswordTransformationMethod {
     @Override
     public CharSequence getTransformation(CharSequence source, View view) {

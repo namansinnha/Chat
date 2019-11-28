@@ -1,5 +1,3 @@
-package com.developer.gkweb.knowlocation.Notification;
-
 public class Sender {
 
     public Data data;

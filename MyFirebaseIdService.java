@@ -1,13 +1,3 @@
-package com.developer.gkweb.knowlocation.Notification;
-
-
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.iid.FirebaseInstanceId;
-import com.google.firebase.messaging.FirebaseMessagingService;
-
 class MyFirebaseIdService extends FirebaseMessagingService {
 
     @Override

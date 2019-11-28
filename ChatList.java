@@ -1,5 +1,3 @@
-package com.developer.gkweb.knowlocation.Model;
-
 public class ChatList {
 
     public String id;

@@ -1,23 +1,3 @@
-package com.developer.gkweb.knowlocation.Activities;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.app.ProgressDialog;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ProgressBar;
-
-import com.developer.gkweb.knowlocation.R;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.android.material.textfield.TextInputEditText;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-
-import es.dmoral.toasty.Toasty;
-
 public class ForgotPasswordActivity extends AppCompatActivity {
 
     //vars

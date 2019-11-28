@@ -1,5 +1,3 @@
-package com.developer.gkweb.knowlocation.Model;
-
 public class User {
 
     public String id, name, email, password, phonenumber, status, imageUrl, search;

@@ -1,5 +1,3 @@
-package com.developer.gkweb.knowlocation.Model;
-
 public class Chat {
 
     private String sender;

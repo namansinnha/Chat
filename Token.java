@@ -1,5 +1,3 @@
-package com.developer.gkweb.knowlocation.Notification;
-
 public class Token {
 
     private String token;
